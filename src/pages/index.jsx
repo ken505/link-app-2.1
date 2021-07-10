@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
-import { LocalHead } from "../../components/layout/LocalHead";
-import { Footer } from "../../components/layout/Footer";
+import { LocalHead } from "../components/layout/LocalHead";
+import { Footer } from "../components/layout/Footer";
 
 const Home = () => {
   return (
