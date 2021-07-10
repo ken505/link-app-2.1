@@ -6,8 +6,9 @@ const Home = () => {
   return (
     <div>
       <LocalHead />
-      <main className={styles.main}>Link App 2.1</main>
+      <main className={styles.main}>Link App 2.1 and more</main>
       <Footer />
     </div>
   );
 };
+export default Home;
