@@ -12,7 +12,11 @@
 - ESLint 7.30.0
 - ESLint-config-next 11.0.1
 ---
-### 2021/07/10
+
+### 6th/August/2021
+- Add dnd-kit/core
+
+### 10th/July/2021
 - Create project
 - Initial Refactor code
 - Deploy to vercel
