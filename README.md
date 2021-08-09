@@ -1,22 +1,26 @@
-# Link-app ver.2.1
+## Link-app ver.2.1
 
 ---
-#### Dependencies
-- Next.js 11.0.1
-- React 17.0.2
-- Tailwindcss 2.2.4
-- Hero icons 1.0.2
-- Headless UI 1.3.0
-- React-hot-toast 2.0.0
 
-- ESLint 7.30.0
-- ESLint-config-next 11.0.1
----
-
-### 6th/August/2021
-- Add dnd-kit/core
-
-### 10th/July/2021
-- Create project
-- Initial Refactor code
-- Deploy to vercel
+### "dependencies"
+    "@dnd-kit/core": "^3.1.1",
+    "@dnd-kit/modifiers": "^3.0.0",
+    "@dnd-kit/sortable": "^4.0.0",
+    "@headlessui/react": "^1.3.0",
+    "@heroicons/react": "^1.0.2",
+    "@tailwindcss/forms": "^0.3.3",
+    "next": "11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.0.0",
+    "react-icons": "^4.2.0"
+  
+  ### "devDependencies"
+    "autoprefixer": "^10.2.6",
+    "eslint": "7.30.0",
+    "eslint-config-next": "11.0.1",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+ 
+### Create project
+10th/July/2021
