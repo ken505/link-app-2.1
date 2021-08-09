@@ -7,7 +7,11 @@ module.exports = {
       backgroundImage: () => ({
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-radial-at-t":
-          "radial-gradient(50% 80% at 50% -10%, var(--tw-gradient-stops))",
+        "radial-gradient(50% 50% at 50% -10%, var(--tw-gradient-stops))",
+        "gradient-radial-at-t-md":
+        "radial-gradient(50% 40% at 50% -10%, var(--tw-gradient-stops))",
+        "gradient-radial-at-t-sm":
+        "radial-gradient(50% 15% at 50% -4%, var(--tw-gradient-stops))",
       }),
     },
   },
