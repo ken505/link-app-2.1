@@ -1,70 +1,91 @@
 import Link from "next/link";
-// import { FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
-// import { IoPersonCircle } from "react-icons/io5";
-// import { GiCat } from "react-icons/gi";
+import { CardStyleWrapper } from "./layout/cardStyleWrapper";
+import { FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
+import { IoPersonCircle } from "react-icons/io5";
+import { GiCat } from "react-icons/gi";
+import { NoteSvg } from "./Svgicons/NoteSvg";
+import { ZennSvg } from "./Svgicons/ZennSvg";
 
 export const Links = () => {
   const ITEMS = [
     {
+      href: "https://blueprint-gamma.vercel.app/",
+      title: "My Vision",
+      image: <IoPersonCircle />,
+    },
+    {
+      href: "https://portfolio-vert-three.vercel.app/",
+      title: "Growth record",
+      image: <IoPersonCircle />,
+    },
+    {
       href: "https://twitter.com/ken_tsx",
       title: "Twitter",
-      // image: <FaTwitter />,
+      image: <FaTwitter />,
     },
     {
       href: "https://zenn.dev/ken505",
       title: "Zenn",
-      // image: <ZennSvg />,
+      image: <ZennSvg />,
     },
     {
       href: "https://www.instagram.com/ken.tsx/",
       title: "Instagram",
-      // image: <FaInstagram  />,
-      description: "Account for  Cat photos",
+      image: <FaInstagram />,
+      description: "Cat photos",
     },
     {
       href: "https://www.instagram.com/ken.pic505/",
       title: "Instagram",
-      // image: <FaInstagram />,
-      description: "Account for Cat illustration",
+      image: <FaInstagram />,
+      description: "Cat illustration",
     },
     {
       href: "https://note.com/ken505",
       title: "note",
-      // image: <NoteSvg />,
+      image: <NoteSvg />,
     },
     {
       href: "https://github.com/ken505",
       title: "Github",
-      // image: <FaGithub />,
+      image: <FaGithub />,
     },
     {
       href: "/photos",
-      title: "High-reso photos",
-      // image: <GiCat />,
-      // description: "⚠️ Wi-Fi 環境下での閲覧をお勧めします ⚠️",
+      title: "SLR-Photo",
+      image: <GiCat />,
+      description: "⚠️ Wi-Fi 使用推奨 ⚠️",
     },
     {
       href: "/about",
       title: "About Me",
-      // image: <IoPersonCircle />,
+      image: <IoPersonCircle />,
+    },
+    {
+      href: "/newThings",
+      title: "New things",
+      image: <IoPersonCircle />,
     },
   ];
   return (
-    <div className="text-center mb-5">
+    <div>
       {ITEMS.map((item) => {
         return (
           <Link key={item.href} href={item.href}>
             <a>
-              <div>
-                {/* Image データの有無による出し分け処理 */}
-                {/* item.src が truthy だったら Image を表示、 falsy だったら null (非表示)*/}
-                {/* Image タグに値がないとエラーになるため。 */}
-                <div>
-                  {item.image ? <div>{item.image}</div> : null}
-                  {item.title ? <h2>{item.title}</h2> : null}
+              <CardStyleWrapper>
+                <div className="flex justify-center">
+                  {item.image ? (
+                    <div className="flex items-center">{item.image}</div>
+                  ) : null}
+                  {item.title ? (
+                    <h2 className="mx-3 text-2xl">{item.title}</h2>
+                  ) : null}
                 </div>
-                {item.description ? <p>{item.description}</p> : null}
-              </div>
+                {item.description ? (
+                  <p className="text-base text-center">{item.description}</p>
+                ) : null}
+              </CardStyleWrapper>
             </a>
           </Link>
         );
