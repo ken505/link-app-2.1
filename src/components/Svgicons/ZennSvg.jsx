@@ -1,7 +1,7 @@
 export const ZennSvg = () => {
   return (
     <svg
-      className="fill-current text-white  dark:text-gray-300 w-6 h-6"
+      className="fill-current dark:text-gray-300 w-6 h-6"
       viewBox="0 0 24 24"
       fill="currentColor"
     >
