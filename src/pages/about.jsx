@@ -51,7 +51,9 @@ const About = () => {
   );
 };
 export default About;
-{/* <div>
+
+{
+  /* <div>
   <h2>Self introduction</h2>
   <ul>
     Top 10 most important values 🌟
@@ -66,4 +68,5 @@ export default About;
     <li>⭐️調和：周囲の環境と調和しながら生きる。</li>
     <li>⭐️受諾：ありのままの自分を受け入れる。</li>
   </ul>
-</div>; */}
+</div>; */
+}
