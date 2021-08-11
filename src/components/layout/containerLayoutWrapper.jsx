@@ -1,6 +1,6 @@
 export const ContainerLayoutWrapper = (props) => {
   return (
-    <div
+    <div 
       className=" bg-gradient-to-tr
                   dark:bg-gradient-radial-at-t-sm
                   md:dark:bg-gradient-radial-at-t-md
