@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { AboutCardLayoutWrapper } from "./Layout/AboutCardLayoutWrapper";
+import { AboutCardLayoutWrapper } from "../components/Layout/AboutCardLayoutWrapper";
 
 export const AboutItem = () => {
   const APP_ITEMS = [
