@@ -56,7 +56,7 @@ export const Links = () => {
       description: "Cat illustration",
     },
     {
-      href: "/Photo",
+      href: "/photo",
       title: "SLR-Photo",
       image: <GiCat />,
       description: "⚠️ Wi-Fi 使用推奨 ⚠️",
