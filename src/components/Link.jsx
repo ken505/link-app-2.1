@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
 import { IoPersonCircle } from "react-icons/io5";
-import { GiCat } from "react-icons/gi";
+// import { GiCat } from "react-icons/gi";
 import { LinkCardStyleWrapper } from "./Layout/LinkCardStyleWrapper";
 import { NoteSvg } from "./Svgicons/NoteSvg";
 import { ZennSvg } from "./Svgicons/ZennSvg";
@@ -13,11 +13,11 @@ export const Links = () => {
       title: "My Vision",
       image: <IoPersonCircle />,
     },
-    {
-      href: "/about",
-      title: "About Me",
-      image: <IoPersonCircle />,
-    },
+    // {
+    //   href: "/about",
+    //   title: "About Me",
+    //   image: <IoPersonCircle />,
+    // },
     {
       href: "https://portfolio-vert-three.vercel.app/",
       title: "Growth record",
@@ -55,12 +55,12 @@ export const Links = () => {
       image: <FaInstagram />,
       description: "Cat illustration",
     },
-    {
-      href: "/photo",
-      title: "SLR-Photo",
-      image: <GiCat />,
-      description: "⚠️ Wi-Fi 使用推奨 ⚠️",
-    },
+    // {
+    //   href: "/photo",
+    //   title: "SLR-Photo",
+    //   image: <GiCat />,
+    //   description: "⚠️ Wi-Fi 使用推奨 ⚠️",
+    // },
   ];
   return (
     <div>
