@@ -1,5 +1,5 @@
 import { ContainerLayoutWrapper } from "../components/Layout/ContainerLayoutWrapper";
-import { Links } from "../components/Link";
+import { LinkCollection } from "../components/LinkCollection";
 
 const Home = () => {
   return (
@@ -7,7 +7,7 @@ const Home = () => {
       <h1 className="text-xl flex justify-center mb-10 font-bold">
         Welcome to Ken&apos;s links
       </h1>
-      <Links />
+      <LinkCollection />
     </ContainerLayoutWrapper>
   );
 };
